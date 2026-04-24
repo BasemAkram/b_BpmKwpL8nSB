@@ -196,13 +196,13 @@ export function HeroSection() {
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
-            <a
-              href="/cv.pdf"
-              className="inline-flex items-center gap-2 bg-secondary border border-border px-4 py-3 text-sm text-foreground hover:border-accent transition-colors"
-            >
-              <Download className="w-4 h-4" />
-              CV
-            </a>
+           <a
+  href="/Basem_Akram_CV.docx"
+  className="inline-flex items-center gap-2 bg-secondary border border-border px-4 py-3 text-sm text-foreground hover:border-accent transition-colors"
+>
+  <Download className="w-4 h-4" />
+  CV
+</a>
           </motion.div>
 
           {/* Closing line */}
