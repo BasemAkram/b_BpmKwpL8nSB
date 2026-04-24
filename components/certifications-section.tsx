@@ -6,7 +6,7 @@ import { ExternalLink, Award } from "lucide-react"
 
 const certifications = [
   {
-    title: "CCNA – Entrprise Networking",
+    title: "CCNA – Enterprise Networking",
     issuer: "Cisco",
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
@@ -32,28 +32,28 @@ const certifications = [
   {
     title: "Digital Forensics Fundamentals",
     issuer: "MaharaTech",
-    issuerUrl: https://maharatech.gov.eg",
+    issuerUrl: "https://maharatech.gov.eg",
     date: "2024",
     highlight: true,
     image: "/certs/depi-ir.jpg",
   },
-    title: "CCNA – Switching And Routing",
+  {
+    title: "CCNA – Switching and Routing",
     issuer: "Cisco",
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
-    image: "/certs/malware.jpg",
-
+    image: "/certs/switching-routing.jpg",
   },
-    title: "CCNA – Intro To Networks",
+  {
+    title: "CCNA – Introduction to Networks",
     issuer: "Cisco",
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
-    image: "/certs/dfir.jpg",
+    image: "/certs/intro-networks.jpg",
   },
 ]
-
 export function CertificationsSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-80px" })
