@@ -6,11 +6,11 @@ import { ExternalLink, Award } from "lucide-react"
 
 const certifications = [
   {
-    title: "CCNA – Cisco Certified Network Associate",
+    title: "CCNA – Entrprise Networking",
     issuer: "Cisco",
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
-    highlight: true,
+    highlight: false,
     image: "/certs/ccna.jpg",
   },
   {
@@ -30,28 +30,27 @@ const certifications = [
     image: "/certs/mcsa.jpg",
   },
   {
-    title: "Incident Response Analyst",
-    issuer: "Digital Egypt Pioneers Initiative (DEPI)",
-    issuerUrl: "https://www.depi.gov.eg/",
+    title: "Digital Forensics Fundamentals",
+    issuer: "MaharaTech",
+    issuerUrl: https:/maharatech.gov.eg",
     date: "2024",
     highlight: true,
     image: "/certs/depi-ir.jpg",
   },
-  {
-    title: "Digital Forensics Fundamentals",
-    issuer: "Self-Study / TryHackMe",
-    issuerUrl: "https://tryhackme.com/",
-    date: "2024",
-    highlight: false,
-    image: "/certs/dfir.jpg",
-  },
-  {
-    title: "Malware Analysis Fundamentals",
-    issuer: "Self-Study / TryHackMe",
-    issuerUrl: "https://tryhackme.com/",
+    title: "CCNA – Switching And Routing",
+    issuer: "Cisco",
+    issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
     image: "/certs/malware.jpg",
+
+  },
+    title: "CCNA – Intro To Networks",
+    issuer: "Cisco",
+    issuerUrl: "https://www.cisco.com/",
+    date: "2024",
+    highlight: false,
+    image: "/certs/dfir.jpg",
   },
 ]
 
