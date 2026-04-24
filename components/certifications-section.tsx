@@ -43,7 +43,7 @@ const certifications = [
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
-    image: "/certs/switching-routing.jpg",
+    image: "/certs/malware.jpg",
   },
   {
     title: "CCNA – Introduction to Networks",
@@ -51,7 +51,7 @@ const certifications = [
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
-    image: "/certs/intro-networks.jpg",
+    image: "/certs/dfir.jpg",
   },
 ]
 export function CertificationsSection() {
