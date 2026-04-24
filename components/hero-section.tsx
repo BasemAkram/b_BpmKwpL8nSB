@@ -161,34 +161,34 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.75 }}
             className="mt-10 flex flex-wrap items-center gap-3 justify-center"
           >
-            
+            <a
               href="#Projects"
               className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3 text-sm font-medium hover:bg-accent hover:text-background transition-colors"
             >
               View Projects
               <ArrowRight className="w-4 h-4" />
             </a>
-            
+            <a
               href="#Experience"
               className="inline-flex items-center gap-2 border border-border px-6 py-3 text-sm text-foreground hover:border-accent hover:text-accent transition-colors"
             >
               Experience
             </a>
-            
+            <a
               href="mailto:basemakram560@gmail.com"
               className="inline-flex items-center gap-2 bg-secondary border border-border px-4 py-3 text-sm text-foreground hover:border-accent transition-colors"
             >
               <Mail className="w-4 h-4" />
               Email
             </a>
-            
+            <a
               href="tel:+201553927779"
               className="inline-flex items-center gap-2 bg-secondary border border-border px-4 py-3 text-sm text-foreground hover:border-accent transition-colors"
             >
               <Phone className="w-4 h-4" />
               Call
             </a>
-            
+            <a
               href="www.linkedin.com/in/basem-younis"
               target="_blank"
               rel="noopener noreferrer"
@@ -197,7 +197,7 @@ export function HeroSection() {
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
-            
+            <a
               href="/Basem_Akram_CV.docx"
               className="inline-flex items-center gap-2 bg-secondary border border-border px-4 py-3 text-sm text-foreground hover:border-accent transition-colors"
             >
