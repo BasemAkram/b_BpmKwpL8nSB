@@ -14,9 +14,32 @@ const typeConfig: Record<ExperienceType, { icon: React.ElementType; color: strin
 }
 
 const experiences = [
+
+    {
+    id: "Malware-Analysis",
+    role: "Malware-Analysis",
+    organization: "Independent Lab Work",
+    organizationUrl: "#",
+    duration: "2026",
+    isCurrent: false,
+    type: "training" as ExperienceType,
+bullets: [
+  "Analyzed malware behavior in isolated lab environments to understand execution patterns and system-level impact.",
+  "Identified malicious indicators of compromise (IOCs) through process activity, file system changes, and runtime behavior.",
+],
+skills: [
+  "Malware Analysis",
+  "IOC Extraction",
+  "Process Monitoring",
+  "System Behavior Analysis",
+  "DFIR Fundamentals"
+],
+  },
+
+  
   {
-    id: "minufiya-bsc",
-    role: "Bachelor of Computer Science",
+    id: "minufiya-ai",
+    role: "Bachelor of Artificial Intelligence",
     organization: "Minufiya University",
     organizationUrl: "https://www.menofia.edu.eg/",
     duration: "2022 – Present",
@@ -26,7 +49,7 @@ const experiences = [
       "Specialization: Artificial Intelligence & Intelligent Systems.",
       "Focused on networking, cybersecurity, machine learning, and software engineering.",
     ],
-    skills: ["AI", "Machine Learning", "Networking", "Algorithms"],
+    skills: ["AI", "Machine Learning", "Networking", "Security"],
   },
   {
     id: "depi-ir",
