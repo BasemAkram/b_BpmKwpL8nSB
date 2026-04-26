@@ -2,12 +2,11 @@
 
 import { motion, useInView, AnimatePresence } from "framer-motion"
 import { useRef, useState } from "react"
-import { ArrowUpRight, Shield, Network, Bug, Terminal, Brain } from "lucide-react"
+import { ArrowUpRight, Shield, Network, Bug, Terminal, Brain, BarChart, Database } from "lucide-react"
 
-type FilterTab = "All" | "Networking" | "Security" | "AI"
+type FilterTab = "All" | "Networking" | "Security" | "AI" | "Cybersecurity" | "Software Development"
 
-const filterTabs: FilterTab[] = ["All", "Networking", "Security", "AI"]
-
+const filterTabs: FilterTab[] = ["All", "Networking", "Security", "AI", "Cybersecurity", "Software Development"]
 const projects = [
   {
     id: 1,
