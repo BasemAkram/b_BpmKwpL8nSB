@@ -13,6 +13,22 @@ const certifications = [
     highlight: false,
     image: "/certs/ccna.jpg",
   },
+    {
+    title: "CCNA – Introduction to Networks",
+    issuer: "Cisco",
+    issuerUrl: "https://www.cisco.com/",
+    date: "2024",
+    highlight: false,
+    image: "/certs/difr.jpg",
+  },
+    {
+    title: "CCNA – Switching and Routing",
+    issuer: "Cisco",
+    issuerUrl: "https://www.cisco.com/",
+    date: "2024",
+    highlight: false,
+    image: "/certs/malware.jpg",
+  },
   {
     title: "CCNP – Advanced Networking Concepts",
     issuer: "Cisco",
@@ -36,14 +52,6 @@ const certifications = [
     date: "2024",
     highlight: false,
     image: "/certs/depi-ir.jpg",
-  },
-  {
-    title: "CCNA – Switching and Routing",
-    issuer: "Cisco",
-    issuerUrl: "https://www.cisco.com/",
-    date: "2024",
-    highlight: false,
-    image: "/certs/malware.jpg",
   },
   {
     title: "Basis Of Malware Analysis",
