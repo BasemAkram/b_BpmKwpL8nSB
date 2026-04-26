@@ -38,7 +38,7 @@ const tools = [
 ]
 const stats = [
   { value: "6+", label: "Certifications Earned" },
-  { value: "CCNA", label: "Cisco Certified" },
+  { value: "CCNP", label: "Cisco" },
   { value: "3.4+", label: "GPA at Minufiya Univ." },
 ]
 
