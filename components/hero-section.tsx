@@ -12,12 +12,34 @@ const roles = [
   "AI/ML Learner",
 ]
 
-const tools = ["Cisco PT", "Wireshark", "Python", "TryHackMe", "Linux", "Nmap"]
-
+const tools = [
+  "Cisco Packet Tracer",
+  "Wireshark",
+  "Python",
+  "Linux",
+  "Nmap",
+  "TryHackMe",
+  "Malware Analysis Labs",
+  "Process Monitor (Procmon)",
+  "Sysinternals Suite",
+  "Cuckoo Sandbox",
+  "Any.Run",
+  "IDA Pro",
+  "Ghidra",
+  "Volatility (Memory Forensics)",
+  "Wazuh (SIEM)",
+  "ELK Stack (Elasticsearch, Logstash, Kibana)",
+  "Splunk (SIEM Basics)",
+  "Python for Machine Learning",
+  "PyTorch",
+  "Scikit-learn",
+  "Deep Learning Frameworks",
+  "Jupyter Notebooks"
+]
 const stats = [
   { value: "6+", label: "Certifications Earned" },
   { value: "CCNA", label: "Cisco Certified" },
-  { value: "3.7+", label: "GPA at Minufiya Univ." },
+  { value: "3.4+", label: "GPA at Minufiya Univ." },
 ]
 
 export function HeroSection() {
