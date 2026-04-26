@@ -42,7 +42,7 @@ const projects = [
       "Completed TryHackMe SOC Tier 1 learning path. Practised SIEM alert triage, threat hunting, IOC identification, and incident investigation workflows using hands-on browser labs.",
     icon: Shield,
     tags: ["TryHackMe", "SIEM", "Alert Triage", "IOC", "Threat Hunting"],
-    year: "2024",
+    year: "2026",
     source: "TryHackMe",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
       "Explored static and dynamic malware analysis techniques within isolated lab environments. Practiced reverse engineering, behaviour analysis, and threat identification to build foundational security skills.",
     icon: Bug,
     tags: ["Malware Analysis", "Reverse Engineering", "Threat Analysis"],
-    year: "2024",
+    year: "2026",
     source: "Lab Project",
   },
   {
@@ -66,21 +66,82 @@ const projects = [
       "Hands-on 6-month DEPI program covering the full IR lifecycle: preparation, detection, containment, eradication, recovery, and lessons-learned documentation with simulated real-world scenarios.",
     icon: Shield,
     tags: ["Incident Response", "DEPI", "SOC", "Detection Engineering"],
-    year: "2024",
+    year: "2026",
     source: "DEPI",
   },
   {
     id: 6,
     title: "AI & Intelligent Systems Coursework",
     category: "AI" as FilterTab,
-    categoryLabel: "Academic Research",
+    categoryLabel: "Machine Learning Project ",
     description:
       "University specialisation in AI covering supervised/unsupervised machine learning, deep neural networks, computer vision foundations, and NLP—with practical Python implementations using scikit-learn and TensorFlow.",
     icon: Brain,
     tags: ["Python", "ML", "Deep Learning", "scikit-learn", "TensorFlow"],
     year: "2024",
-    source: "Minufiya Univ.",
+    source: "Academic Project",
   },
+  {
+  id: 7,
+  title: "Land Type Classification",
+  category: "AI" as FilterTab,
+  categoryLabel: "Deep Learning Project",
+  description:
+    "Deep learning project for classifying land types from satellite images using PyTorch with image preprocessing and CNN-based model training.",
+  icon: Brain,
+  tags: ["Python", "PyTorch", "Deep Learning", "Computer Vision", "Image Classification"],
+  year: "2025",
+  source: "Academic Project ",
+},
+{
+  id: 8,
+  title: "Garbage Classification Challenge",
+  category: "AI" as FilterTab,
+  categoryLabel: "Deep Learning Competition",
+  description:
+    "Deep learning project for classifying waste types using image datasets and CNN models with PyTorch, including data preprocessing and model optimization. Achieved 5th place in a competitive challenge.",
+  icon: Brain,
+  tags: ["Python", "PyTorch", "Deep Learning", "Computer Vision", "Image Classification"],
+  year: "2025",
+  source: "Self Project",
+},
+  {
+  id: 9,
+  title: "Bank Asset Security Documentation",
+  category: "Cybersecurity" as FilterTab,
+  categoryLabel: "Security Documentation",
+  description:
+    "Security documentation project analyzing bank assets, identifying critical systems and data, and defining protection strategies including controls, tools, and security measures to mitigate risks.",
+  icon: Shield,
+  tags: ["Cybersecurity", "Risk Analysis", "Asset Management", "Security Controls", "Threat Modeling"],
+  year: "2025",
+  source: "Academic Project",
+},
+
+  {
+  id: 11,
+  title: "Automated Machine Learning & Data Analysis Pipeline",
+  category: "AI" as FilterTab,
+  categoryLabel: "Machine Learning Project",
+  description:
+    "Built an automated ML pipeline that allows users to upload datasets, perform full preprocessing on selected features, train different machine learning models, and control training split ratios. The system also generates predictions and supports data visualization through customizable graphs.",
+  icon: BarChart,
+  tags: ["Python", "Machine Learning", "Data Analysis", "Pandas", "Scikit-learn", "Data Visualization"],
+  year: "2025",
+  source: "Academic Project",
+},
+ {
+  id: 12,
+  title: "Counter System with Database Integration",
+  category: "Software Development" as FilterTab,
+  categoryLabel: "Desktop Application Project",
+  description:
+    "Developed a Python GUI-based counter system integrated with a database to store, retrieve, and manage counter data efficiently with persistent storage support.",
+  icon: Database,
+  tags: ["Python", "GUI", "Database", "SQL", "Data Persistence"],
+  year: "2024",
+  source: "Academic Project",
+}, 
 ]
 
 export function ProjectsSection() {
