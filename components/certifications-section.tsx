@@ -19,7 +19,7 @@ const certifications = [
     issuerUrl: "https://www.cisco.com/",
     date: "2024",
     highlight: false,
-    image: "/certs/difr.jpg",
+    image: "/certs/dfir.jpg",
   },
     {
     title: "CCNA – Switching and Routing",
